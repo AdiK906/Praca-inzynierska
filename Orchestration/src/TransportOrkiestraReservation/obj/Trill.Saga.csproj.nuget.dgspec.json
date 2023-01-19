@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Adrian\\Desktop\\Studia (nowe)\\Trill.Saga-master\\Trill.Saga-master\\src\\Trill.Saga\\Trill.Saga.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Adrian\\Desktop\\Studia (nowe)\\Trill.Saga-master\\Trill.Saga-master\\src\\Trill.Saga\\Trill.Saga.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Adrian\\Desktop\\Studia (nowe)\\Trill.Saga-master\\Trill.Saga-master\\src\\Trill.Saga\\Trill.Saga.csproj",
+        "projectName": "Trill.Saga",
+        "projectPath": "C:\\Users\\Adrian\\Desktop\\Studia (nowe)\\Trill.Saga-master\\Trill.Saga-master\\src\\Trill.Saga\\Trill.Saga.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\Desktop\\Studia (nowe)\\Trill.Saga-master\\Trill.Saga-master\\src\\Trill.Saga\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Chronicle_": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Convey": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Auth": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.CQRS.Commands": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.CQRS.Events": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.CQRS.Queries": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Discovery.Consul": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.HTTP": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.LoadBalancing.Fabio": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Logging": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.MessageBrokers": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.MessageBrokers.CQRS": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.MessageBrokers.Outbox": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.MessageBrokers.Outbox.Mongo": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.MessageBrokers.RabbitMQ": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Metrics.Prometheus": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Persistence.MongoDB": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Persistence.Redis": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Secrets.Vault": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Security": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Tracing.Jaeger": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.Tracing.Jaeger.RabbitMQ": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.WebApi": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Convey.WebApi.CQRS": {
+              "target": "Package",
+              "version": "[0.5.*, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
